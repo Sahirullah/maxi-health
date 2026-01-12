@@ -388,6 +388,31 @@ ul {
 	font-weight: 700;
 }
 
+/* Header Button */
+.header-btn {
+	display: inline-block;
+	padding: 12px 24px;
+	background: linear-gradient(135deg, #0f89d1 0%, #33a9ee 100%);
+	color: #fff !important;
+	font-size: 12px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	border-radius: 6px;
+	text-decoration: none;
+	transition: all 0.3s ease;
+	box-shadow: 0 4px 15px rgba(15, 137, 209, 0.3);
+	margin-left: 15px;
+}
+
+.header-btn:hover {
+	background: linear-gradient(135deg, #0779bc 0%, #0f89d1 100%);
+	transform: translateY(-2px);
+	box-shadow: 0 6px 20px rgba(15, 137, 209, 0.4);
+	color: #fff !important;
+	text-decoration: none;
+}
+
 /* Dropdown styling */
 .professional-header .dropdown {
 	position: relative;
